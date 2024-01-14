@@ -1,0 +1,40 @@
+.footTwo h3{
+  color: #2F2F2F;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 114.286% */
+}
+.paragraph{
+  color: #2F2F2F;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+}
+@media (max-width: 1000px){
+  .footTwo h3{
+    line-height: 17px;
+    font-size: 16px;
+  }
+  .paragraph{
+  font-size: 13px;
+  line-height: 17px;
+  }
+}
+@media (max-width: 450px){
+  .footTwo h3{
+    line-height: 12px;
+    font-size: 12px;
+    /* padding-top: 40px; */
+    margin-top: 20px;
+ 
+
+  }
+  .paragraph{
+  font-size: 10px;
+  line-height: 14px;
+  }
+}

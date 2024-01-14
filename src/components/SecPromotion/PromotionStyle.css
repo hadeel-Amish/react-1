@@ -1,0 +1,11 @@
+.cardPro{
+  display: flex;
+margin-top: 60px;
+margin-bottom: 40px;
+}
+
+@media (max-width: 900px){
+  .cardPro{
+  flex-wrap: wrap;
+  }
+}

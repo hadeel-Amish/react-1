@@ -1,0 +1,108 @@
+.promotion {
+position: relative;
+width: 100%;
+}
+.postion{
+  position: absolute;
+  top: 0;
+  right: 25%;
+}
+.postion h2{
+  color: #FFEFEC;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.postion h1{
+  color: #FFF;
+  text-align: center;
+  font-family: Volkhov;
+  font-size: 40px;
+  font-weight: 700;;
+}
+.postion .btn{
+  display: flex;
+width: 183px;
+height: 58px;
+justify-content: center;
+align-items: center;
+background-color: transparent;
+border: 2px solid white;
+}
+.postion .btn a{
+  color:  #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
+
+.promotion img{
+  width: 100%;
+
+}
+@media (max-width: 1000px){
+  .promotion img{
+     width:100%;
+  }
+  .postion h1{
+font-size: 30px;
+  }
+  .postion h2{
+font-size: 14px;
+  }
+  .postion .btn{
+    display: flex;
+  width: 150px;
+  height: 40px;
+  margin: auto;
+}
+  }
+
+  @media (max-width: 320px){
+    .postion{
+  top: 10%;
+  right: -50%;
+}
+/* .postion h2{
+  font-size: 7px;
+
+} */
+.postion h1{
+  font-size: 8px;
+ 
+}
+.postion .btn{
+width: 120px;
+height: 24px;
+margin-top: -10%;
+margin-bottom: 30px;
+}
+  }
+
+
+
+  @media (max-width: 900px){
+    .postion{
+  top: 30%;
+  right: 40%;
+}
+  }
+  @media (max-width: 600px){
+    .postion{
+  top: 12%;
+  right: 36%;
+}
+.postion h2{
+  font-size: 10px;
+}
+.postion h1{
+  font-size: 22px;
+}
+  }

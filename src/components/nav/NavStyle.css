@@ -1,0 +1,136 @@
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.logo{
+  margin-right: 10px;
+  padding-left: 30px;
+}
+.menu{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.li a  {
+  list-style-type: none;
+  padding:   10px px;
+  color: #FFF;
+font-family: Poppins;
+font-size: 17px;
+font-weight: 400;
+margin-right: 30px;
+}
+.ulSide a{
+  list-style: none;
+  padding:   10px 30px;
+  color: #3f3f3f;
+font-family: Poppins;
+font-size: 17px;
+font-weight: 400;
+}
+
+.btn,.btn-2{
+  width: 157.341px;
+  height: 44.062px;
+  background-color: #DF6951;
+  color: #fff;
+  border: none;
+  box-shadow: (0px 20px 35px rgba(223, 105, 81, 0.15));
+  border-radius:5px ;
+  margin-right: 40px;
+
+}
+.btn-2{
+  transform: translate(40%,30%);
+  -webkit-transform: translate(40%,30%);
+  -moz-transform: translate(40%,30%);
+  -ms-transform: translate(40%,30%);
+  -o-transform: translate(40%,30%);
+}
+.naviconclass{
+  display: none;
+}
+/* ====================================sidebar===================================== */
+.sidebar{
+  display: none;
+  height: 90vh;
+  max-width: 100%;
+  background-color: #FFF;
+  z-index: 1;
+  /* margin-left: 400px; */
+}
+.sidebar li{
+  list-style-type: none;
+  color: #463e3e;
+font-family: Poppins;
+font-size: 17px;
+font-weight: 400;
+  /* padding: 24px 26px; */
+  margin: 40px 50px;
+}
+ svg {
+  color: #DF6951;
+  margin: 6px;
+}
+
+
+/*===================================== media ===========================*/
+@media (max-width: 1000px) {
+  .logo{
+    margin-bottom: -80px;
+  }
+  .menu{
+    display: none;
+  }
+  .btn{
+   display: none;
+  }
+  .naviconclass{
+    display: block;
+    margin-right: 20px;
+    /* margin-top: -100px; */
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+}
+
+/* @media (max-width: 450px){
+
+} */
+
+@media (max-width: 550px){
+  .sidebar{
+    margin-left: 0px;
+  }
+  .logo{
+    margin-bottom: -30px;
+    width: 90px;
+  }
+  .naviconclass{
+    display: block;
+    margin-right: 20px;
+    margin-top: -100px;
+}
+ 
+}
+@media screen and (max-width: 1400px) and (min-width: 1001px){
+  .menu{
+    display: flex;
+  }
+
+  .naviconclass{
+    display: none;
+  }
+}
+
+
+
+
+

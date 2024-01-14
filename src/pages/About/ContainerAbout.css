@@ -1,0 +1,46 @@
+  .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  /* margin: 50px 40px; */
+} 
+.percent{
+  display: flex;
+margin-top: -20px;
+}
+.percent .percentchild p{
+  color: #7D7D7D;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.percent .percentchild h3{
+  color: #181E4B;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  margin: 20px;
+}
+@media (max-width: 900px){
+  .percent .percentchild p{
+    font-size: 22px;;
+  }
+  .percent .percentchild h3{
+    font-size: 15px;
+    margin: 10px;
+  }
+  .container{
+
+max-width: 100%;
+
+
+  }
+}

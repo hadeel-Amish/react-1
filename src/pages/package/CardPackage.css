@@ -1,0 +1,83 @@
+.cardPackage{
+  border-radius: 4px;
+  background: #F5F3F3;
+  width: 386px;
+  height: 438px;
+  border: 3px solid #ada9a9;
+  margin-top: 50px;
+}
+.span{
+  width: 346px;
+height: 39px;
+border-radius: 4px 4px 0px 0px;
+background: #DF6951;
+margin: -5px 10px 10px 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.spanone , .spantwo{
+  color: #F5F3F3;
+text-align: center;
+font-size: 12.974px;
+font-style: normal;
+font-weight: 500;
+text-transform: capitalize;
+}
+.titlepackge{
+  color: #181E4B;
+font-size: 22px;
+font-weight: 700;
+text-transform: capitalize;
+margin: 5px 10px 5px 20px;
+}
+.pa{
+  color: #181E4B;
+font-size: 14px;
+font-weight: 400;
+text-transform: capitalize;
+/* margin-left: 22px; */
+margin: 5px 10px 10px 20px;
+
+}
+.foot{
+  margin: 5px 10px 10px 20px;
+
+}
+.foot .num{
+  padding-right: 30px;
+  color: #262626;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+.foot .icon{
+  color: #262626;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+@media (max-width: 600px) {
+  .cardPackage{
+    margin-bottom: 50px;
+   max-width:  100%;
+  }
+  .cardPackage .imagecard {
+   max-width:  90%;
+  }
+  .cardPackage .pa{
+ max-width: 90%;
+  }
+  
+  .span{
+    max-width: 90%;
+  }
+}

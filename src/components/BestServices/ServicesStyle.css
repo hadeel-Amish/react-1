@@ -1,0 +1,24 @@
+.h1-ser{
+  color: #1E1D4C;
+text-align: center;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.card{
+  display: flex;
+
+}
+@media (max-width: 1000px){
+  .card{
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.h1-ser{
+  font-size: 40px;
+}
+}

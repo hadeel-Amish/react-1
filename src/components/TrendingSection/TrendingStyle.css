@@ -1,0 +1,33 @@
+
+.Trending h1{
+  color: #1E1D4C;
+text-align: center;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 71.042px; /* 142.085% */
+}
+.pirent{
+  display: flex;
+justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  
+}
+.child{
+
+}
+@media (max-width: 1000px){
+  .Trending h1{
+    font-size: 35px;
+  }
+  .pirent{
+    gap: 10px;
+    /* max-width: 100%; */
+
+    flex-wrap: wrap;
+    
+  }
+}
